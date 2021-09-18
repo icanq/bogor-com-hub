@@ -1,0 +1,25 @@
+{
+  "name": "bogor-com-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-fe": "cd client && npm run dev",
+    "dev-be": "cd server && npm run start:dev",
+    "dev-all": "concurrently \"npm run dev-fe\" \"npm:dev-be\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icanq/bogor-com-hub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icanq/bogor-com-hub/issues"
+  },
+  "homepage": "https://github.com/icanq/bogor-com-hub#readme",
+  "dependencies": {
+    "concurrently": "^6.2.1"
+  }
+}
